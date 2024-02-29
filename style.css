@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  color: hsl(0, 2%, 22%);
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  background-color: #F3E5D8;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /*Fix content horizontally*/
+}
+.container {
+  height: fit-content;
+  width: 420px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex; 
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  margin: 50px;
+}
+
+img {
+  height: 200px;
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  position: relative;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 36px;
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.discreption {
+  width: 90%;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  
+}
+
+.prep {
+  width: 90%;
+  background-color: hsl(330, 100%, 98%);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+
+li::marker {
+  color:hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+
+h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(32, 67%, 22%);
+  font-size: 32px;
+}
+
+.ingredients {
+  width: 90%;
+  background-color: none;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions {
+  width: 80%;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions > ol > li {
+  padding: 10px 0px;
+}
+
+.nutrition {
+  width: 80%;
+}
+.btm {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 110px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.btm-l {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 110px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.num {
+  font-weight: bold;
+  color:hsl(32, 67%, 22%);
+}
